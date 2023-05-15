@@ -452,3 +452,9 @@ PalletTown_EventScript_SignLadyStartShowSign::
 	release
 	end
 `
+
+script PalletTown_EventScript_PurgatorySign {
+	lockall
+    msgbox("Welcome to Purgatory")
+    releaseall
+}

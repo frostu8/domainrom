@@ -450,3 +450,13 @@ PalletTown_EventScript_SignLadyStartShowSign::
 	call PalletTown_EventScript_SignLadyShowSign
 	release
 	end
+
+PalletTown_EventScript_PurgatorySign::
+	lockall
+	msgbox PalletTown_EventScript_PurgatorySign_Text_0
+	releaseall
+	return
+
+
+PalletTown_EventScript_PurgatorySign_Text_0:
+	.string "Welcome to Purgatory$"
