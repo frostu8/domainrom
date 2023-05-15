@@ -724,7 +724,7 @@
     {
       "id": "LAYOUT_PALLET_TOWN",
       "name": "PalletTown_Layout",
-      "width": 24,
+      "width": 36,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
