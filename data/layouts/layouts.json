@@ -4380,6 +4380,18 @@
       "secondary_tileset": "gTileset_MtEmber",
       "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa/map.bin"
+    },
+    {
+      "id": "LAYOUT_TROLL_TOWER_B1",
+      "name": "TrollTower_B1_Layout",
+      "width": 9,
+      "height": 15,
+      "border_width": 1,
+      "border_height": 1,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_TrainerTower",
+      "border_filepath": "data/layouts/TrollTower_B1/border.bin",
+      "blockdata_filepath": "data/layouts/TrollTower_B1/map.bin"
     }
   ]
 }
