@@ -4389,7 +4389,7 @@
       "border_width": 1,
       "border_height": 1,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_TrainerTower",
+      "secondary_tileset": "gTileset_TrollTower",
       "border_filepath": "data/layouts/TrollTower_B1/border.bin",
       "blockdata_filepath": "data/layouts/TrollTower_B1/map.bin"
     }

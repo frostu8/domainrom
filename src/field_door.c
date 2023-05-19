@@ -81,10 +81,10 @@ static const u8 sDoorAnimTiles_HideoutElevator[] = INCBIN_U8("graphics/door_anim
 static const u16 sDoorNullPalette20[16] = {};
 static const u8 sDoorAnimTiles_SSAnne[] = INCBIN_U8("graphics/door_anims/ss_anne.4bpp");
 static const u16 sDoorNullPalette21[16] = {};
+static const u8 sDoorAnimTiles_TrollTowerElevator[] = INCBIN_U8("graphics/door_anims/troll_tower_elevator.4bpp");
+static const u16 sDoorNullPalette22[16] = {};
 
 // Doors from R/S dummied below
-static const u8 sDoorAnimTiles_Empty1[256 * 3] = {};
-static const u16 sDoorNullPalette22[16] = {};
 static const u8 sDoorAnimTiles_Empty2[256 * 3] = {};
 static const u16 sDoorNullPalette23[16] = {};
 static const u8 sDoorAnimTiles_Empty3[256 * 3] = {};
@@ -246,6 +246,7 @@ static const u8 sDoorAnimPalettes_Sevii67[] = {5, 5, 5, 5, 5, 5, 5, 5};
 static const u8 sDoorAnimPalettes_Teleporter[] = {8, 8, 8, 8, 8, 8, 8, 8};
 static const u8 sDoorAnimPalettes_TrainerTowerLobbyElevator[] = {8, 8, 2, 2, 2, 2, 2, 2};
 static const u8 sDoorAnimPalettes_TrainerTowerRoofElevator[] = {11, 11, 2, 2, 2, 2, 2, 2};
+static const u8 sDoorAnimPalettes_TrollTowerElevator[] = {7, 7, 7, 7, 7, 7, 7, 7};
 
 static const struct DoorGraphics sDoorGraphics[] = {
     {METATILE_General_Door,                                DOOR_SOUND_NORMAL,  DOOR_SIZE_1x1, sDoorAnimTiles_General, sDoorAnimPalettes_General},
@@ -284,6 +285,7 @@ static const struct DoorGraphics sDoorGraphics[] = {
     {METATILE_SeaCottage_Teleporter_Door,                  DOOR_SOUND_SLIDING, DOOR_SIZE_1x2, sDoorAnimTiles_Teleporter, sDoorAnimPalettes_Teleporter},
     {METATILE_TrainerTower_LobbyElevatorDoor,              DOOR_SOUND_SLIDING, DOOR_SIZE_1x2, sDoorAnimTiles_TrainerTowerLobbyElevator, sDoorAnimPalettes_TrainerTowerLobbyElevator},
     {METATILE_TrainerTower_RoofElevatorDoor,               DOOR_SOUND_SLIDING, DOOR_SIZE_1x2, sDoorAnimTiles_TrainerTowerRoofElevator, sDoorAnimPalettes_TrainerTowerRoofElevator},
+    {METATILE_TrollTower_ElevatorDoor,           DOOR_SOUND_SLIDING, DOOR_SIZE_1x1, sDoorAnimTiles_TrollTowerElevator, sDoorAnimPalettes_TrollTowerElevator},
     {}
 };
 

@@ -3,16 +3,6 @@
 #include "troll_tower.h"
 #include "constants/event_objects.h"
 
-#define TROLL_TOWER_FLOOR_NORMAL 0
-#define TROLL_TOWER_FLOOR_SPECIAL 1
-
-struct TrollTowerOpponent
-{
-    u8 name[11];
-    u8 objGfx;
-    u8 facilityClass;
-};
-
 static const struct TrollTowerOpponent sTrollTowerFloors[] = {
     {
         .name = _("BRUH"),
@@ -30,4 +20,9 @@ void InitTrollTowerFloor(void)
         floor = NELEMS(sTrollTowerFloors) - 1;
 
     VarSet(VAR_OBJ_GFX_ID_0, sTrollTowerFloors[floor].objGfx);
+}
+
+void TrollTowerAddFloorCleared(void)
+{
+    gSaveBlock1Ptr->trollTowerFloor++;
 }

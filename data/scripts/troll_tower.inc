@@ -1,3 +1,3 @@
 TrollTower_OnTransition::
-    callnative InitTrollTowerFloor
+    tower_initfloor
     end
