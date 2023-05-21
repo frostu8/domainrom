@@ -15,9 +15,9 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "right",
-      "offset": -10,
-      "map": "MAP_CERULEAN_CITY"
+      "direction": "left",
+      "offset": 0,
+      "map": "MAP_ROUTE3"
     }
   ],
   "object_events": [
@@ -124,7 +124,7 @@
       "trainer_sight_or_berry_tree_id": "",
       "script": "",
       "flag": "",
-      "target_local_id": 12,
+      "target_local_id": "",
       "target_map": "MAP_CERULEAN_CITY",
       "type": "clone"
     }
