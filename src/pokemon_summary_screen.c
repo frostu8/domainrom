@@ -2852,12 +2852,28 @@ static void PokeSum_PrintExpPoints_NextLv(void)
                                  gText_PokeSum_NextLv);
 }
 
+// FIXME: lol
+const u8 Text_Physical[] = _("PHYS");
+const u8 Text_Special[] = _("SPEC");
+const u8 Text_Effect[] = _("EFF");
+
+// FIXME: this is retarded
+static void PokeSum_PrintMoveDamageCategory(void)
+{
+
+    u8 category = gBattleMoves[sMonSummaryScreen->moveIds[sMoveSelectionCursorPos]].category;
+
+    BlitMoveInfoIcon(sMonSummaryScreen->windowIds[POKESUM_WIN_TRAINER_MEMO], category + 24, 85, 1);
+}
+
 static void PokeSum_PrintSelectedMoveStats(void)
 {
     if (sMoveSelectionCursorPos < 5)
     {
         if (sMonSummaryScreen->mode != PSS_MODE_SELECT_MOVE && sMoveSelectionCursorPos == 4)
             return;
+
+        PokeSum_PrintMoveDamageCategory();
 
         AddTextPrinterParameterized3(sMonSummaryScreen->windowIds[POKESUM_WIN_TRAINER_MEMO], FONT_NORMAL,
                                      57, 1,
