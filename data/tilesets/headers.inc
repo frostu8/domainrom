@@ -747,3 +747,14 @@ gTileset_HallOfFame::
 	.4byte 0x0
 	.4byte gMetatileAttributes_HallOfFame
 
+
+	.align 2
+gTileset_LowTierGodRoute::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_LowTierGodRoute
+	.4byte gTilesetPalettes_LowTierGodRoute
+	.4byte gMetatiles_LowTierGodRoute
+	.4byte NULL
+	.4byte gMetatileAttributes_LowTierGodRoute
