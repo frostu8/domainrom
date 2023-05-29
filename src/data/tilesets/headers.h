@@ -746,3 +746,14 @@ const struct Tileset gTileset_HallOfFame =
     .callback = NULL,
 };
 
+
+const struct Tileset gTileset_MountainRoute =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_MountainRoute,
+    .palettes = gTilesetPalettes_MountainRoute,
+    .metatiles = gMetatiles_MountainRoute,
+    .metatileAttributes = gMetatileAttributes_MountainRoute,
+    .callback = NULL,
+};
