@@ -758,3 +758,14 @@ gTileset_LowTierGodRoute::
 	.4byte gMetatiles_LowTierGodRoute
 	.4byte NULL
 	.4byte gMetatileAttributes_LowTierGodRoute
+
+	.align 2
+gTileset_MountainBridge::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_MountainBridge
+	.4byte gTilesetPalettes_MountainBridge
+	.4byte gMetatiles_MountainBridge
+	.4byte NULL
+	.4byte gMetatileAttributes_MountainBridge

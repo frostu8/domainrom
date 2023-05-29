@@ -1489,3 +1489,23 @@ gTilesetPalettes_LowTierGodRoute::
 	.align 2
 gTilesetTiles_LowTierGodRoute::
 	.incbin "data/tilesets/secondary/lowtiergodroute/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_MountainBridge::
+	.incbin "data/tilesets/secondary/mountainbridge/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/mountainbridge/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/mountainbridge/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/mountainbridge/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/mountainbridge/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/mountainbridge/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/mountainbridge/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/mountainbridge/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/mountainbridge/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/mountainbridge/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/mountainbridge/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/mountainbridge/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/mountainbridge/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_MountainBridge::
+	.incbin "data/tilesets/secondary/mountainbridge/tiles.4bpp.lz"

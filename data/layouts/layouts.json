@@ -885,7 +885,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_PewterCity",
+      "secondary_tileset": "gTileset_ViridianCity",
       "border_filepath": "data/layouts/Route3/border.bin",
       "blockdata_filepath": "data/layouts/Route3/map.bin"
     },
@@ -897,7 +897,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_LowTierGodRoute",
+      "secondary_tileset": "gTileset_CeruleanCity",
       "border_filepath": "data/layouts/Route4/border.bin",
       "blockdata_filepath": "data/layouts/Route4/map.bin"
     },
@@ -909,19 +909,19 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_LowTierGodRoute",
+      "secondary_tileset": "gTileset_CeruleanCity",
       "border_filepath": "data/layouts/Route5/border.bin",
       "blockdata_filepath": "data/layouts/Route5/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE6",
       "name": "Route6_Layout",
-      "width": 24,
+      "width": 31,
       "height": 40,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_VermilionCity",
+      "secondary_tileset": "gTileset_CeruleanCity",
       "border_filepath": "data/layouts/Route6/border.bin",
       "blockdata_filepath": "data/layouts/Route6/map.bin"
     },

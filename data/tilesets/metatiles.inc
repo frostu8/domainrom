@@ -549,3 +549,10 @@ gMetatiles_LowTierGodRoute::
 	.align 1
 gMetatileAttributes_LowTierGodRoute::
 	.incbin "data/tilesets/secondary/lowtiergodroute/metatile_attributes.bin"
+	.align 1
+gMetatiles_MountainBridge::
+	.incbin "data/tilesets/secondary/mountainbridge/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_MountainBridge::
+	.incbin "data/tilesets/secondary/mountainbridge/metatile_attributes.bin"
