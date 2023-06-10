@@ -18,6 +18,11 @@
       "map": "MAP_ROUTE6",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE7",
+      "offset": 11,
+      "direction": "up"
     }
   ],
   "object_events": [
@@ -227,8 +232,8 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 22,
-      "y": 19,
+      "x": 5,
+      "y": 7,
       "elevation": 0,
       "dest_map": "MAP_CERULEAN_CITY_POKEMON_CENTER_1F",
       "dest_warp_id": "0"
@@ -241,15 +246,15 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 13,
-      "y": 28,
+      "x": 35,
+      "y": 5,
       "elevation": 3,
       "dest_map": "MAP_CERULEAN_CITY_BIKE_SHOP",
       "dest_warp_id": "0"
     },
     {
-      "x": 29,
-      "y": 28,
+      "x": 40,
+      "y": 4,
       "elevation": 0,
       "dest_map": "MAP_CERULEAN_CITY_MART",
       "dest_warp_id": "0"
@@ -283,8 +288,8 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 14,
-      "y": 28,
+      "x": 36,
+      "y": 5,
       "elevation": 3,
       "dest_map": "MAP_CERULEAN_CITY_BIKE_SHOP",
       "dest_warp_id": "0"
