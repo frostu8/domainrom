@@ -13,7 +13,7 @@
   "show_map_name": true,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "type": "object",
@@ -186,14 +186,14 @@
       "dest_warp_id": "3"
     },
     {
-      "x": 5,
+      "x": 26,
       "y": 9,
       "elevation": 3,
       "dest_map": "MAP_ROUTE2_VIRIDIAN_FOREST_NORTH_ENTRANCE",
       "dest_warp_id": "1"
     },
     {
-      "x": 6,
+      "x": 27,
       "y": 9,
       "elevation": 3,
       "dest_map": "MAP_ROUTE2_VIRIDIAN_FOREST_NORTH_ENTRANCE",
@@ -207,14 +207,16 @@
       "dest_warp_id": "3"
     },
     {
-      "x": 4,
+      "x": 25,
       "y": 9,
       "elevation": 3,
       "dest_map": "MAP_ROUTE2_VIRIDIAN_FOREST_NORTH_ENTRANCE",
       "dest_warp_id": "1"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

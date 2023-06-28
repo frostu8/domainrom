@@ -869,7 +869,7 @@
       "id": "LAYOUT_ROUTE2",
       "name": "Route2_Layout",
       "width": 24,
-      "height": 80,
+      "height": 20,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
@@ -897,7 +897,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_CeruleanCity",
+      "secondary_tileset": "gTileset_MountainRoute",
       "border_filepath": "data/layouts/Route4/border.bin",
       "blockdata_filepath": "data/layouts/Route4/map.bin"
     },

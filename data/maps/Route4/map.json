@@ -118,7 +118,7 @@
     },
     {
       "type": "clone",
-      "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_M",
+      "graphics_id": "OBJ_EVENT_GFX_RED_NORMAL",
       "x": 109,
       "y": 3,
       "target_local_id": 0,
@@ -136,7 +136,7 @@
   ],
   "warp_events": [
     {
-      "x": 19,
+      "x": 34,
       "y": 5,
       "elevation": 3,
       "dest_map": "MAP_MT_MOON_1F",

@@ -15,20 +15,25 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "right",
+      "map": "MAP_VIRIDIAN_CITY",
       "offset": -4,
-      "map": "MAP_VIRIDIAN_CITY"
+      "direction": "right"
     },
     {
-      "direction": "down",
+      "map": "MAP_PALLET_TOWN",
       "offset": 0,
-      "map": "MAP_PALLET_TOWN"
+      "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE2",
+      "offset": -8,
+      "direction": "up"
     }
   ],
   "object_events": [
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CLERK",
-      "in_connection": false,
       "x": 6,
       "y": 28,
       "elevation": 3,
@@ -39,11 +44,11 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route1_EventScript_MartClerk",
       "flag": "0",
-      "type": "object"
+      "in_connection": false
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BOY",
-      "in_connection": false,
       "x": 19,
       "y": 16,
       "elevation": 3,
@@ -54,7 +59,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route1_EventScript_Boy",
       "flag": "0",
-      "type": "object"
+      "in_connection": false
     }
   ],
   "warp_events": [

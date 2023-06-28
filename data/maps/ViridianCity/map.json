@@ -15,20 +15,20 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "left",
+      "map": "MAP_ROUTE1",
       "offset": 4,
-      "map": "MAP_ROUTE1"
+      "direction": "left"
     },
     {
-      "direction": "right",
+      "map": "MAP_ROUTE3",
       "offset": 0,
-      "map": "MAP_ROUTE3"
+      "direction": "right"
     }
   ],
   "object_events": [
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
-      "in_connection": false,
       "x": 8,
       "y": 26,
       "elevation": 3,
@@ -39,11 +39,11 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianCity_EventScript_DreamEaterTutor",
       "flag": "0",
-      "type": "object"
+      "in_connection": false
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
-      "in_connection": false,
       "x": 11,
       "y": 24,
       "elevation": 3,
@@ -54,11 +54,11 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
       "flag": "FLAG_TEMP_11",
-      "type": "object"
+      "in_connection": false
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_OLD_MAN_1",
-      "in_connection": false,
       "x": 34,
       "y": 11,
       "elevation": 3,
@@ -69,11 +69,11 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianCity_EventScript_OldMan",
       "flag": "0",
-      "type": "object"
+      "in_connection": false
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
-      "in_connection": false,
       "x": 21,
       "y": 6,
       "elevation": 3,
@@ -84,11 +84,11 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianCity_EventScript_TutorialOldMan",
       "flag": "0",
-      "type": "object"
+      "in_connection": false
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_3",
-      "in_connection": false,
       "x": 20,
       "y": 12,
       "elevation": 3,
@@ -99,11 +99,11 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianCity_EventScript_Woman",
       "flag": "0",
-      "type": "object"
+      "in_connection": false
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
-      "in_connection": false,
       "x": 33,
       "y": 26,
       "elevation": 3,
@@ -114,11 +114,11 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianCity_EventScript_Youngster",
       "flag": "0",
-      "type": "object"
+      "in_connection": false
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BOY",
-      "in_connection": false,
       "x": 16,
       "y": 22,
       "elevation": 3,
@@ -129,11 +129,11 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianCity_EventScript_Boy",
       "flag": "0",
-      "type": "object"
+      "in_connection": false
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
-      "in_connection": false,
       "x": 18,
       "y": 5,
       "elevation": 3,
@@ -144,11 +144,11 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
       "flag": "FLAG_TEMP_12",
-      "type": "object"
+      "in_connection": false
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "in_connection": false,
       "x": 17,
       "y": 5,
       "elevation": 3,
@@ -159,7 +159,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianCity_EventScript_ItemPotion",
       "flag": "FLAG_HIDE_VIRIDIAN_CITY_POTION",
-      "type": "object"
+      "in_connection": false
     }
   ],
   "warp_events": [
@@ -168,35 +168,35 @@
       "y": 22,
       "elevation": 0,
       "dest_map": "MAP_VIRIDIAN_CITY_POKEMON_CENTER_1F",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 25,
       "y": 11,
       "elevation": 3,
       "dest_map": "MAP_VIRIDIAN_CITY_HOUSE",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 36,
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_VIRIDIAN_CITY_GYM",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 25,
       "y": 18,
       "elevation": 0,
       "dest_map": "MAP_VIRIDIAN_CITY_SCHOOL",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 37,
       "y": 28,
       "elevation": 0,
       "dest_map": "MAP_VIRIDIAN_CITY_MART",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
