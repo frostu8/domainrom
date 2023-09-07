@@ -222,6 +222,61 @@ PalletTown_EventScript_OakTrigger::
 	releaseall
 	end
 
+PalletTown_EventScript_FrostTrigger::
+	famechecker FAMECHECKER_OAK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
+	textcolor NPC_TEXT_COLOR_MALE
+	delay 30
+	playbgm MUS_OAK, 0
+	message PalletTown_Text_FrostDontGoOut
+	waitmessage
+	delay 85
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	playse SE_PIN
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	delay 30
+	addobject LOCALID_PROF_OAK
+	call_if_eq VAR_TEMP_1, 0, PalletTown_EventScript_FrostEnterUp
+	call_if_eq VAR_TEMP_1, 1, PalletTown_EventScript_FrostEnterDown
+	delay 30
+	msgbox PalletTown_Text_FrostGrass
+	closemessage
+	delay 30
+	call_if_eq VAR_TEMP_1, 0, PalletTown_EventScript_FrostLeadPlayerToLabUp
+	call_if_eq VAR_TEMP_1, 1, PalletTown_EventScript_FrostLeadPlayerToLabDown
+	opendoor 6, 8
+	waitdooranim
+	applymovement LOCALID_PROF_OAK, PalletTown_Movement_FrostEnterLab
+	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerEnterEbin
+	waitmovement 0
+	closedoor 6, 8
+	waitdooranim
+	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1
+	clearflag FLAG_HIDE_OAK_IN_HIS_LAB
+	setvar VAR_MAP_SCENE_PALLET_TOWN_OAK, 1
+	setflag FLAG_HIDE_OAK_IN_PALLET_TOWN
+	setflag FLAG_DONT_TRANSITION_MUSIC
+	warp MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6, 12
+	waitstate
+	releaseall
+	end
+
+PalletTown_EventScript_FrostTriggerUp::
+	lockall
+	setvar VAR_TEMP_1, 0
+	goto PalletTown_EventScript_FrostTrigger
+	end
+
+PalletTown_EventScript_FrostTriggerDown::
+	lockall
+	setvar VAR_TEMP_1, 1
+	goto PalletTown_EventScript_FrostTrigger
+	end
+
+
+
 PalletTown_EventScript_OakEnterLeft::
 	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakEnterLeft
 	waitmovement 0
@@ -232,6 +287,17 @@ PalletTown_EventScript_OakEnterRight::
 	waitmovement 0
 	return
 
+PalletTown_EventScript_FrostEnterUp::
+	applymovement LOCALID_PROF_OAK, PalletTown_Movement_FrostEnterUp
+	waitmovement 0
+	return
+
+PalletTown_EventScript_FrostEnterDown::
+	applymovement LOCALID_PROF_OAK, PalletTown_Movement_FrostEnterDown
+	waitmovement 0
+	return
+
+
 PalletTown_EventScript_OakLeadPlayerToLabLeft::
 	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakWalkToLabLeft
 	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerWalkToLabLeft
@@ -241,6 +307,18 @@ PalletTown_EventScript_OakLeadPlayerToLabLeft::
 PalletTown_EventScript_OakLeadPlayerToLabRight::
 	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakWalkToLabRight
 	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerWalkToLabRight
+	waitmovement 0
+	return
+
+PalletTown_EventScript_FrostLeadPlayerToLabUp::
+	applymovement LOCALID_PROF_OAK, PalletTown_Movement_FrostWalkToLabUp
+	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerWalkToLabUp
+	waitmovement 0
+	return
+
+PalletTown_EventScript_FrostLeadPlayerToLabDown::
+	applymovement LOCALID_PROF_OAK, PalletTown_Movement_FrostWalkToLabDown
+	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerWalkToLabDown
 	waitmovement 0
 	return
 
@@ -301,7 +379,68 @@ PalletTown_Movement_OakWalkToLabRight::
 	walk_in_place_faster_up
 	step_end
 
+PalletTown_Movement_FrostWalkToLabUp::
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	face_up
+	step_end
+
+PalletTown_Movement_FrostWalkToLabDown::
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	face_up
+	step_end
+
+
+walk_to_lab
+	walk_right
+	walk_in_place_faster_up
+	step_end
+
+PalletTown_Movement_FrostWalkToLabRight::
+	walk_down
+	walk_left
+	walk_to_lab
+	walk_right
+	walk_in_place_faster_up
+	step_end
+
+
 PalletTown_Movement_OakEnterLab::
+	walk_up
+	set_invisible
+	step_end
+
+PalletTown_Movement_FrostEnterLab::
 	walk_up
 	set_invisible
 	step_end
@@ -318,6 +457,51 @@ PalletTown_Movement_PlayerWalkToLabRight::
 	walk_left
 	walk_to_lab
 	step_end
+
+PalletTown_Movement_PlayerWalkToLabUp::
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	step_end
+
+PalletTown_Movement_PlayerWalkToLabDown::
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	step_end
+
+PalletTown_Movement_PlayerEnterEbin::
+	walk_left
+	walk_up
+	set_invisible
+	step_end
+
 
 PalletTown_Movement_PlayerEnterLab::
 	walk_right
@@ -460,3 +644,27 @@ PalletTown_EventScript_PurgatorySign::
 
 PalletTown_EventScript_PurgatorySign_Text_0:
 	.string "Welcome to Purgatory$"
+
+
+PalletTown_Movement_FrostEnterUp::
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	step_end
+
+PalletTown_Movement_FrostEnterDown::
+	walk_down
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	step_end

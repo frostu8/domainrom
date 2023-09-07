@@ -2,6 +2,16 @@ PalletTown_Text_OakDontGoOut::
     .string "OAK: Hey! Wait!\n"
     .string "Don't go out!$"
 
+PalletTown_Text_FrostDontGoOut::
+    .string "Uoueight: HEY YOU!\p"
+    .string "YOU LIBSTER BETTER WAIT!$"
+
+PalletTown_Text_FrostGrass::
+    .string "Is the weather ouside frightful?\n"
+    .string "Or is it just me?\p"
+    .string "Anyways, want a Trollomon?!\n"
+    .string "Follow me!!!$"
+
 PalletTown_Text_OakGrassUnsafeNeedMon::
     .string "OAK: It's unsafe!\n"
     .string "Wild POKéMON live in tall grass!\p"

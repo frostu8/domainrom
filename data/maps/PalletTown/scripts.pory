@@ -223,6 +223,48 @@ PalletTown_EventScript_OakTrigger::
 	releaseall
 	end
 
+PalletTown_EventScript_FrostTrigger::
+	famechecker FAMECHECKER_OAK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
+	textcolor NPC_TEXT_COLOR_MALE
+	delay 30
+	playbgm MUS_OAK, 0
+	message PalletTown_Text_FrostDontGoOut
+	waitmessage
+	delay 85
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	playse SE_PIN
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	delay 30
+	addobject LOCALID_PROF_OAK
+	call_if_eq VAR_TEMP_1, 0, PalletTown_EventScript_FrostEnterUp
+	call_if_eq VAR_TEMP_1, 1, PalletTown_EventScript_FrostEnterDown
+	delay 30
+	msgbox PalletTown_Text_FrostGrass
+	closemessage
+	delay 30
+	call_if_eq VAR_TEMP_1, 0, PalletTown_EventScript_OakLeadPlayerToLabUp
+	call_if_eq VAR_TEMP_1, 1, PalletTown_EventScript_OakLeadPlayerToLabDown
+	opendoor 6, 8
+	waitdooranim
+	applymovement LOCALID_PROF_OAK, PalletTown_Movement_FrostEnterLab
+	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerEnterLab
+	waitmovement 0
+	closedoor 6, 8
+	waitdooranim
+	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1
+	clearflag FLAG_HIDE_OAK_IN_HIS_LAB
+	setvar VAR_MAP_SCENE_PALLET_TOWN_OAK, 1
+	setflag FLAG_HIDE_OAK_IN_PALLET_TOWN
+	setflag FLAG_DONT_TRANSITION_MUSIC
+	warp MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6, 12
+	waitstate
+	releaseall
+	end
+
+
 PalletTown_EventScript_OakEnterLeft::
 	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakEnterLeft
 	waitmovement 0
@@ -458,3 +500,26 @@ script PalletTown_EventScript_PurgatorySign {
     msgbox("Welcome to Purgatory")
     releaseall
 }
+
+PalletTown_Movement_FrostEnterUp::
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	step_end
+
+PalletTown_Movement_FrostEnterDown::
+	walk_down
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	step_end
