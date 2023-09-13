@@ -244,12 +244,12 @@ PalletTown_EventScript_FrostTrigger::
 	msgbox PalletTown_Text_FrostGrass
 	closemessage
 	delay 30
-	call_if_eq VAR_TEMP_1, 0, PalletTown_EventScript_FrostLeadPlayerToLabUp
-	call_if_eq VAR_TEMP_1, 1, PalletTown_EventScript_FrostLeadPlayerToLabDown
+	call_if_eq VAR_TEMP_1, 0, PalletTown_EventScript_OakLeadPlayerToLabLeft
+	call_if_eq VAR_TEMP_1, 1, PalletTown_EventScript_OakLeadPlayerToLabRight
 	opendoor 6, 8
 	waitdooranim
-	applymovement LOCALID_PROF_OAK, PalletTown_Movement_FrostEnterLab
-	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerEnterEbin
+	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakEnterLab
+	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerEnterLab
 	waitmovement 0
 	closedoor 6, 8
 	waitdooranim
@@ -276,7 +276,6 @@ PalletTown_EventScript_FrostTriggerDown::
 	end
 
 
-
 PalletTown_EventScript_OakEnterLeft::
 	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakEnterLeft
 	waitmovement 0
@@ -288,15 +287,14 @@ PalletTown_EventScript_OakEnterRight::
 	return
 
 PalletTown_EventScript_FrostEnterUp::
-	applymovement LOCALID_PROF_OAK, PalletTown_Movement_FrostEnterUp
+	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakEnterLeft
 	waitmovement 0
 	return
 
 PalletTown_EventScript_FrostEnterDown::
-	applymovement LOCALID_PROF_OAK, PalletTown_Movement_FrostEnterDown
+	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakEnterRight
 	waitmovement 0
 	return
-
 
 PalletTown_EventScript_OakLeadPlayerToLabLeft::
 	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakWalkToLabLeft
@@ -310,19 +308,8 @@ PalletTown_EventScript_OakLeadPlayerToLabRight::
 	waitmovement 0
 	return
 
-PalletTown_EventScript_FrostLeadPlayerToLabUp::
-	applymovement LOCALID_PROF_OAK, PalletTown_Movement_FrostWalkToLabUp
-	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerWalkToLabUp
-	waitmovement 0
-	return
-
-PalletTown_EventScript_FrostLeadPlayerToLabDown::
-	applymovement LOCALID_PROF_OAK, PalletTown_Movement_FrostWalkToLabDown
-	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerWalkToLabDown
-	waitmovement 0
-	return
-
 PalletTown_Movement_OakEnterLeft::
+	set_visible
 	walk_up
 	walk_up
 	walk_right
@@ -334,6 +321,7 @@ PalletTown_Movement_OakEnterLeft::
 	step_end
 
 PalletTown_Movement_OakEnterRight::
+	set_visible
 	walk_right
 	walk_up
 	walk_up
@@ -365,120 +353,71 @@ PalletTown_Movement_OakEnterRight::
 	.endm
 
 PalletTown_Movement_OakWalkToLabLeft::
+	set_visible
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	walk_down
-	walk_to_lab
-	walk_right
-	walk_in_place_faster_up
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	step_end
 
 PalletTown_Movement_OakWalkToLabRight::
-	walk_down
+	set_visible
 	walk_left
-	walk_to_lab
-	walk_right
-	walk_in_place_faster_up
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	step_end
-
-PalletTown_Movement_FrostWalkToLabUp::
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_down
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	face_up
-	step_end
-
-PalletTown_Movement_FrostWalkToLabDown::
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	face_up
-	step_end
-
-
-walk_to_lab
-	walk_right
-	walk_in_place_faster_up
-	step_end
-
-PalletTown_Movement_FrostWalkToLabRight::
-	walk_down
-	walk_left
-	walk_to_lab
-	walk_right
-	walk_in_place_faster_up
-	step_end
-
 
 PalletTown_Movement_OakEnterLab::
 	walk_up
 	set_invisible
 	step_end
 
-PalletTown_Movement_FrostEnterLab::
-	walk_up
-	set_invisible
-	step_end
-
 PalletTown_Movement_PlayerWalkToLabLeft::
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	walk_down
-	walk_down
-	walk_to_lab
+	walk_left
+	walk_left
 	step_end
 
 PalletTown_Movement_PlayerWalkToLabRight::
-	walk_down
-	walk_down
-	walk_left
-	walk_to_lab
-	step_end
-
-PalletTown_Movement_PlayerWalkToLabUp::
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_down
-	walk_left
-	walk_left
-	walk_left
-	step_end
-
-PalletTown_Movement_PlayerWalkToLabDown::
 	walk_left
 	walk_left
 	walk_left
@@ -495,16 +434,10 @@ PalletTown_Movement_PlayerWalkToLabDown::
 	walk_left
 	walk_left
 	step_end
-
-PalletTown_Movement_PlayerEnterEbin::
-	walk_left
-	walk_up
-	set_invisible
-	step_end
-
 
 PalletTown_Movement_PlayerEnterLab::
-	walk_right
+	walk_left
+	walk_left
 	walk_up
 	set_invisible
 	step_end
@@ -628,25 +561,18 @@ PalletTown_EventScript_SignLadyShowSign::
 	normalmsg
 	return
 
-PalletTown_EventScript_SignLadyStartShowSign::
-	applymovement LOCALID_SIGN_LADY, Common_Movement_FacePlayer
-	waitmovement 0
-	call PalletTown_EventScript_SignLadyShowSign
-	release
-	end
-
-PalletTown_EventScript_PurgatorySign::
-	lockall
-	msgbox PalletTown_EventScript_PurgatorySign_Text_0
-	releaseall
-	return
-
-
-PalletTown_EventScript_PurgatorySign_Text_0:
-	.string "Welcome to Purgatory$"
-
-
 PalletTown_Movement_FrostEnterUp::
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	step_end
+
+PalletTown_Movement_FrostLeadPlayerToLabUp::
 	walk_right
 	walk_right
 	walk_right
@@ -668,3 +594,20 @@ PalletTown_Movement_FrostEnterDown::
 	walk_right
 	walk_right
 	step_end
+
+PalletTown_EventScript_SignLadyStartShowSign::
+	applymovement LOCALID_SIGN_LADY, Common_Movement_FacePlayer
+	waitmovement 0
+	call PalletTown_EventScript_SignLadyShowSign
+	release
+	end
+
+PalletTown_EventScript_PurgatorySign::
+	lockall
+	msgbox PalletTown_EventScript_PurgatorySign_Text_0
+	releaseall
+	return
+
+
+PalletTown_EventScript_PurgatorySign_Text_0:
+	.string "Welcome to Purgatory$"

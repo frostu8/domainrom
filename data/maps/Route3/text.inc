@@ -5,30 +5,30 @@ Route3_Text_TunnelFromCeruleanTiring::
     .string "lot out of you!$"
 
 Route3_Text_ColtonIntro::
-    .string "Hey!\n"
-    .string "I saw you in VIRIDIAN FOREST!$"
+    .string "Lets battle fatty!\n"
+    .string "Adopted fatty!$"
 
 Route3_Text_ColtonDefeat::
-    .string "You beat me again!$"
+    .string "Fatty fatty no-parents!$"
 
 Route3_Text_ColtonPostBattle::
-    .string "There are other kinds of POKéMON\n"
-    .string "than the ones you find in forests.$"
+    .string "Why I aughta!\n"
+    .string "I will PRAY on your downfall!$"
 
 Route3_Text_BenIntro::
     .string "Hi!\n"
-    .string "I like shorts!\p"
+    .string "I like jorts!\p"
     .string "They're delightfully comfy and\n"
     .string "easy to wear!$"
 
 Route3_Text_BenDefeat::
-    .string "I don't believe it!$"
+    .string "Drats!$"
 
 Route3_Text_BenPostBattle::
-    .string "Are you using a POKéMON CENTER's\n"
-    .string "PC for storing your POKéMON?\p"
-    .string "Each BOX can hold up to\n"
-    .string "30 POKéMON.$"
+    .string "You better watch out for that\n"
+    .string "Jort storm.\p"
+    .string "I'd be shitting bricks if I\n"
+    .string "were you.$"
 
 Route3_Text_JaniceIntro::
     .string "Excuse me!\n"

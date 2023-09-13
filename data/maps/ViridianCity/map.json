@@ -168,7 +168,7 @@
       "y": 22,
       "elevation": 0,
       "dest_map": "MAP_VIRIDIAN_CITY_POKEMON_CENTER_1F",
-      "dest_warp_id": "0"
+      "dest_warp_id": "1"
     },
     {
       "x": 25,
@@ -196,7 +196,7 @@
       "y": 28,
       "elevation": 0,
       "dest_map": "MAP_VIRIDIAN_CITY_MART",
-      "dest_warp_id": "0"
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

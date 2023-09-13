@@ -3,7 +3,7 @@ PalletTown_Text_OakDontGoOut::
     .string "Don't go out!$"
 
 PalletTown_Text_FrostDontGoOut::
-    .string "Uoueight: HEY YOU!\p"
+    .string "UOUEIGHT: HEY YOU!\p"
     .string "YOU LIBSTER BETTER WAIT!$"
 
 PalletTown_Text_FrostGrass::
@@ -13,7 +13,7 @@ PalletTown_Text_FrostGrass::
     .string "Follow me!!!$"
 
 PalletTown_Text_OakGrassUnsafeNeedMon::
-    .string "OAK: It's unsafe!\n"
+    .string "UOUEIGHT: It's unsafe!\n"
     .string "Wild POKéMON live in tall grass!\p"
     .string "You need your own POKéMON for\n"
     .string "your protection.\p"
@@ -21,17 +21,17 @@ PalletTown_Text_OakGrassUnsafeNeedMon::
     .string "Here, come with me!$"
 
 PalletTown_Text_RaisingMonsToo::
-    .string "I'm raising POKéMON, too.\p"
+    .string "I'm raising A LIBéRALMON, too.\p"
     .string "When they get strong, they can\n"
     .string "protect me.$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
-    .string "Technology is incredible!\p"
-    .string "You can now store and recall items\n"
-    .string "and POKéMON as data via PC.$"
+    .string "IM ON THE WATER!!!\p"
+    .string "VERY COOL VERY SWAG!!!\n"
+    .string "I HOPE YOU LIKE IT!!!$"
 
 PalletTown_Text_OakPokemonResearchLab::
-    .string "OAK POKéMON RESEARCH LAB$"
+    .string "Uoueight POKéMON RESEARCH LAB$"
 
 PalletTown_Text_PlayersHouse::
     .string "{PLAYER}'s house$"
@@ -40,11 +40,11 @@ PalletTown_Text_RivalsHouse::
     .string "{RIVAL}'s house$"
 
 PalletTown_Text_TownSign::
-    .string "PALLET TOWN\n"
+    .string "R.I.P Mom\n"
     .string "Shades of your journey await!$"
 
 PalletTown_Text_OakLetMeSeePokedex::
-    .string "OAK: Ah, {PLAYER}!\n"
+    .string "UOUEIGHT: Ah, {PLAYER}!\n"
     .string "You're back, are you?\p"
     .string "How much have you filled in your\n"
     .string "POKéDEX?\p"
@@ -67,7 +67,7 @@ PalletTown_Text_CaughtXImpressiveFollowMe::
     .string "Follow me.$"
 
 PalletTown_Text_OakYouEnjoyingTraveling::
-    .string "OAK: Ah, {PLAYER}!\n"
+    .string "UOUEIGHT: Ah, {PLAYER}!\n"
     .string "You seem to be enjoying traveling.\p"
     .string "Knowing you, {PLAYER}, I can easily\n"
     .string "imagine you going out to even more\l"

@@ -232,7 +232,7 @@ PalletTown_EventScript_FrostTrigger::
 	waitmessage
 	delay 85
 	closemessage
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	playse SE_PIN
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark
@@ -245,11 +245,11 @@ PalletTown_EventScript_FrostTrigger::
 	msgbox PalletTown_Text_FrostGrass
 	closemessage
 	delay 30
-	call_if_eq VAR_TEMP_1, 0, PalletTown_EventScript_OakLeadPlayerToLabUp
-	call_if_eq VAR_TEMP_1, 1, PalletTown_EventScript_OakLeadPlayerToLabDown
+	call_if_eq VAR_TEMP_1, 0, PalletTown_EventScript_OakLeadPlayerToLabLeft
+	call_if_eq VAR_TEMP_1, 1, PalletTown_EventScript_OakLeadPlayerToLabRight
 	opendoor 6, 8
 	waitdooranim
-	applymovement LOCALID_PROF_OAK, PalletTown_Movement_FrostEnterLab
+	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakEnterLab
 	applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerEnterLab
 	waitmovement 0
 	closedoor 6, 8
@@ -264,6 +264,18 @@ PalletTown_EventScript_FrostTrigger::
 	releaseall
 	end
 
+PalletTown_EventScript_FrostTriggerUp::
+	lockall
+	setvar VAR_TEMP_1, 0
+	goto PalletTown_EventScript_FrostTrigger
+	end
+
+PalletTown_EventScript_FrostTriggerDown::
+	lockall
+	setvar VAR_TEMP_1, 1
+	goto PalletTown_EventScript_FrostTrigger
+	end
+
 
 PalletTown_EventScript_OakEnterLeft::
 	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakEnterLeft
@@ -271,6 +283,16 @@ PalletTown_EventScript_OakEnterLeft::
 	return
 
 PalletTown_EventScript_OakEnterRight::
+	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakEnterRight
+	waitmovement 0
+	return
+
+PalletTown_EventScript_FrostEnterUp::
+	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakEnterLeft
+	waitmovement 0
+	return
+
+PalletTown_EventScript_FrostEnterDown::
 	applymovement LOCALID_PROF_OAK, PalletTown_Movement_OakEnterRight
 	waitmovement 0
 	return
@@ -288,6 +310,7 @@ PalletTown_EventScript_OakLeadPlayerToLabRight::
 	return
 
 PalletTown_Movement_OakEnterLeft::
+	set_visible
 	walk_up
 	walk_up
 	walk_right
@@ -299,6 +322,7 @@ PalletTown_Movement_OakEnterLeft::
 	step_end
 
 PalletTown_Movement_OakEnterRight::
+	set_visible
 	walk_right
 	walk_up
 	walk_up
@@ -330,18 +354,44 @@ PalletTown_Movement_OakEnterRight::
 	.endm
 
 PalletTown_Movement_OakWalkToLabLeft::
+	set_visible
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	walk_down
-	walk_to_lab
-	walk_right
-	walk_in_place_faster_up
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	step_end
 
 PalletTown_Movement_OakWalkToLabRight::
-	walk_down
+	set_visible
 	walk_left
-	walk_to_lab
-	walk_right
-	walk_in_place_faster_up
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	step_end
 
 PalletTown_Movement_OakEnterLab::
@@ -350,20 +400,45 @@ PalletTown_Movement_OakEnterLab::
 	step_end
 
 PalletTown_Movement_PlayerWalkToLabLeft::
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	walk_down
-	walk_down
-	walk_to_lab
+	walk_left
+	walk_left
 	step_end
 
 PalletTown_Movement_PlayerWalkToLabRight::
-	walk_down
-	walk_down
 	walk_left
-	walk_to_lab
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	step_end
 
 PalletTown_Movement_PlayerEnterLab::
-	walk_right
+	walk_left
+	walk_left
 	walk_up
 	set_invisible
 	step_end
@@ -487,21 +562,18 @@ PalletTown_EventScript_SignLadyShowSign::
 	normalmsg
 	return
 
-PalletTown_EventScript_SignLadyStartShowSign::
-	applymovement LOCALID_SIGN_LADY, Common_Movement_FacePlayer
-	waitmovement 0
-	call PalletTown_EventScript_SignLadyShowSign
-	release
-	end
-`
-
-script PalletTown_EventScript_PurgatorySign {
-	lockall
-    msgbox("Welcome to Purgatory")
-    releaseall
-}
-
 PalletTown_Movement_FrostEnterUp::
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	step_end
+
+PalletTown_Movement_FrostLeadPlayerToLabUp::
 	walk_right
 	walk_right
 	walk_right
@@ -523,3 +595,18 @@ PalletTown_Movement_FrostEnterDown::
 	walk_right
 	walk_right
 	step_end
+
+PalletTown_EventScript_SignLadyStartShowSign::
+	applymovement LOCALID_SIGN_LADY, Common_Movement_FacePlayer
+	waitmovement 0
+	call PalletTown_EventScript_SignLadyShowSign
+	release
+	end
+`
+
+script PalletTown_EventScript_PurgatorySign {
+	lockall
+    msgbox("Welcome to Purgatory")
+    releaseall
+}
+
