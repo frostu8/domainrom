@@ -74,19 +74,22 @@ PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
 
 PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
     .string "UOUEIGHT: {RIVAL}...\n"
-    .string "You can shut up now!\p"
-    .string "Oh, that's right, I brought you two\n"
-    .string "here for Pokomon!\p"
+    .string "Please be patient.\p"
+    .string "I brought you two here\n"
+    .string "for a Pokémon.\p"
+    .string "Could you just wait for\n"
+    .string "15 more seconds!\p"
     .string "Here, {PLAYER}.\p"
     .string "There are three POKéMON here.\p"
     .string "Wehehehehe!\p"
     .string "The POKéMON are held inside\n"
     .string "these POKé BALLS.\p"
     .string "When I was young lad of 56,\n"
-    .string "I was a very alternative punk\p"
-    .string "rock POKéMON TRAINER.\n"
+    .string "I was a big into the alternative\p"
+    .string "punk rock POKéMON TRAINER\n"
+    .string "life style!\p"
     .string "You know, shit like OK COMPUTER!\p"
-    .string "Anyways, want a POKéMON?\n"
+    .string "Anyways, want a POKéMON?\p"
     .string "You can have one.\p"
     .string "Go on, choose!$"
 
@@ -102,8 +105,8 @@ PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose::
     .string "yourself?$"
 
 PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet::
-    .string "OAK: Hey!\n"
-    .string "Don't go away yet!$"
+    .string "UOUEIGHT: Hey!\n"
+    .string "Don't leave without a Pokémon!!$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander::
     .string "Ah! CHARLIZARD!\n"
@@ -134,14 +137,14 @@ PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak::
 
 PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon::
     .string "UOUEIGHT: If a wild POKéMON appears,\n"
-    .string "you can LEGALLY beat it up lol!\p"
+    .string "you can LEGALLY beat it up!\p"
     .string "BUT ONLY WITH YOUR POKEMANS.\n"
     .string "Now get outa here you Farticus.$"
 
 PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow::
     .string "UOUEIGHT: {PLAYER}, raise your silly\n"
     .string "POKéMON by making it battle.\p"
-    .string "It has to battle for it to grow.$"
+    .string "It has to battle to grow.$"
 
 PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
     .string "UOUEIGHT: oh... {PLAYER}!\n"
