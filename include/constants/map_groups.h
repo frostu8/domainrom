@@ -390,6 +390,7 @@
 // gMapGroup_IndoorRoute4
 #define MAP_ROUTE4_POKEMON_CENTER_1F (0 | (16 << 8))
 #define MAP_ROUTE4_POKEMON_CENTER_2F (1 | (16 << 8))
+#define MAP_LOW_TIER_GOD_GYM         (2 | (16 << 8))
 
 // gMapGroup_IndoorRoute5
 #define MAP_ROUTE5_POKEMON_DAY_CARE (0 | (17 << 8))

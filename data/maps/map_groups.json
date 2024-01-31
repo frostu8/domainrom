@@ -428,7 +428,8 @@
   ],
   "gMapGroup_IndoorRoute4": [
     "Route4_PokemonCenter_1F",
-    "Route4_PokemonCenter_2F"
+    "Route4_PokemonCenter_2F",
+    "LowTierGodGym"
   ],
   "gMapGroup_IndoorRoute5": [
     "Route5_PokemonDayCare",
