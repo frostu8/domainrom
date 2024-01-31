@@ -1,18 +1,31 @@
 LowTierGodGym_Text_LTGIntro::
-    .string "So, you're here. I'm BROCK.\n"
-    .string "I'm PEWTER's GYM LEADER.\p"
-    .string "My rock-hard willpower is evident\n"
-    .string "even in my POKéMON.\p"
-    .string "My POKéMON are all rock hard, and\n"
-    .string "have true-grit determination.\p"
-    .string "That's right - my POKéMON are all\n"
-    .string "the ROCK type!\p"
-    .string "Fuhaha! You're going to challenge\n"
-    .string "me knowing that you'll lose?\p"
-    .string "That's the TRAINER's honor that\n"
-    .string "compels you to challenge me.\p"
-    .string "Fine, then!\n"
-    .string "Show me your best!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "If your small brained dumbass\n"
+    .string "hasn't noticed yet.\p"
+    .string "I'm a straight up fighting type\n"
+    .string "gym leader!\p"
+    .string "That's right, my team will kick\n"
+    .string "your ass into oblivion!\p"
+    .string "Be prepared!\n"
+    .string "For my BBC Jr!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+
+LowTierGodGym_Text_LTGTroll::
+    .string "Oh wow. Another worthless bitch\n"
+    .string "ass trainer.\p"
+    .string "Probably from Kanto, aren't you?\n"
+    .string "Damn Kantonian trolls piss me off.\p"
+    .string "Wanna fight me stupid ass?\n"
+    .string "Pay the fuck up.$"
+
+LowTierGodGym_Text_PayUp::
+    .string "{FONT_NORMAL}Pay LowTierGod 5 bucks?$"
+
+LowTierGodGym_Text_YesPay::
+    .string "Alright then.$"
+
+LowTierGodGym_Text_NoPay::
+    .string "You poor asshole, come back when\n"
+    .string "you have some dough.$"
+
 
 @ NOTE: This defeat text actually causes a buffer overflow. It's too long for the gDisplayedStringBattle
 @ buffer that it's put into, and it stomps all over the gBattleTextBuffs after, as well as the otherwise

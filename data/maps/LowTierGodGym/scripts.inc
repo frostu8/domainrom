@@ -3,9 +3,21 @@ LowTierGodGym_MapScripts::
 
 LowTierGodGym_EventScript_LTG::
 	famechecker FAMECHECKER_BROCK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
+	lock
+	faceplayer
+	msgbox LowTierGodGym_Text_LTGTroll
+	msgbox LowTierGodGym_Text_PayUp, MSGBOX_YESNO
+	compare VAR_RESULT, 0
+	goto_if_eq LowTierGodGym_EventScript_NoPay
+	msgbox LowTierGodGym_Text_YesPay, MSGBOX_DEFAULT
 	trainerbattle_single TRAINER_LEADER_BROCK, LowTierGodGym_Text_LTGIntro, LowTierGodGym_Text_LTGDefeat, LowTierGodGym_EventScript_DefeatedLTG, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM39_FROM_BROCK, LowTierGodGym_EventScript_GiveTM39
 	msgbox LowTierGodGym_Text_BrockPostBattle
+	release
+	end
+
+LowTierGodGym_EventScript_NoPay::
+	msgbox LowTierGodGym_Text_NoPay, MSGBOX_DEFAULT
 	release
 	end
 
