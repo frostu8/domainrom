@@ -16,11 +16,11 @@ Route1_Text_PutPotionAway::
     .string "the BAG's ITEMS POCKET.$"
 
 Route1_Text_CanJumpFromLedges::
-    .string "See those ledges along the road?\p"
-    .string "It's a bit scary, but you can jump\n"
-    .string "from them.\p"
-    .string "You can get back to PURGATORY\n"
-    .string "quicker that way.$"
+    .string "I'm trying to find a cool Pokémon.\p"
+    .string "No luck though, only stupid ass\n"
+    .string "rats, birds and bugs.\p"
+    .string "This just flat out\n"
+    .string "ink pink stinks man.$"
 
 Route1_Text_RouteSign::
     .string "ROUTE 1\n"

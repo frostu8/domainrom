@@ -35,11 +35,12 @@ Route3_Text_JaniceIntro::
     .string "You looked at me, didn't you?$"
 
 Route3_Text_JaniceDefeat::
-    .string "You're mean!$"
+    .string "You...\n$"
+    .string "Idiot... and savage.$"
 
 Route3_Text_JanicePostBattle::
-    .string "You shouldn't be staring if you\n"
-    .string "don't want to battle!$"
+    .string "Have...\n"
+    .string "I peaked?$"
 
 Route3_Text_GregIntro::
     .string "Are you a TRAINER?\n"
@@ -88,15 +89,15 @@ Route3_Text_JamesPostBattle::
     .string "the wild ones.$"
 
 Route3_Text_RobinIntro::
-    .string "Eek!\n"
-    .string "Did you touch me?$"
+    .string "EYEEEEE!\n"
+    .string "I'm easily frightened?$"
 
 Route3_Text_RobinDefeat::
-    .string "That's it?$"
+    .string "That wasn't TOO bad.$"
 
 Route3_Text_RobinPostBattle::
-    .string "ROUTE 4 is at the foot of\n"
-    .string "MT. MOON.$"
+    .string "I just woke up here\n"
+    .string "randomally.$"
 
 Route3_Text_RouteSign::
     .string "ROUTE 3\n"

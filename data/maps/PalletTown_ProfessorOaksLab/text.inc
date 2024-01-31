@@ -161,7 +161,7 @@ PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel::
 
 PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered::
     .string "Ah! \n"
-    .string "It's the custom PENIS!\p"
+    .string "It's my custom PENIS!\p"
     .string "That dirty dang Squirtle\n"
     .string "nipped off the darn thing!$"
 
@@ -179,7 +179,7 @@ PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk::
     .string "Pokémon though.$"
 
 PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou::
-    .string "OAK: {PLAYER} and {RIVAL}.\n"
+    .string "UOUEIGHT: {PLAYER} and {RIVAL}.\n"
     .string "Take these with you.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak::
@@ -276,7 +276,7 @@ PalletTown_ProfessorOaksLab_Text_EmailMessage::
     .string "…$"
 
 PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide::
-    .string "I have POKéAIDS...$"
+    .string "I gave the other guy POKéAIDS.$"
 
 PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons::
     .string "Hi, {PLAYER}. I bet you've become\n"

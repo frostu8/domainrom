@@ -198,6 +198,7 @@ PalletTown_EventScript_OakTrigger::
 	waitmovement 0
 	delay 30
 	addobject LOCALID_PROF_OAK
+	setobjectxyperm LOCALID_PROF_OAK, 14, 8
 	call_if_eq VAR_TEMP_1, 0, PalletTown_EventScript_OakEnterLeft
 	call_if_eq VAR_TEMP_1, 1, PalletTown_EventScript_OakEnterRight
 	delay 30
@@ -311,27 +312,27 @@ PalletTown_EventScript_OakLeadPlayerToLabRight::
 
 PalletTown_Movement_OakEnterLeft::
 	set_visible
-	walk_up
-	walk_up
 	walk_right
-	walk_up
-	walk_up
 	walk_right
-	walk_up
-	walk_up
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
 	step_end
 
 PalletTown_Movement_OakEnterRight::
 	set_visible
+	walk_down
 	walk_right
-	walk_up
-	walk_up
 	walk_right
-	walk_up
-	walk_up
 	walk_right
-	walk_up
-	walk_up
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
 	step_end
 
 	.macro walk_to_lab
