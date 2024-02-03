@@ -1,8 +1,13 @@
 ViridianCity_Text_CanCarryMonsAnywhere::
-    .string "Those POKé BALLS at your waist!\n"
-    .string "You have POKéMON, don't you?\p"
-    .string "It's great that you can carry and\n"
-    .string "use POKéMON anytime, anywhere.$"
+    .string "This city once was the home\n"
+    .string "of the Simpletons!\p"
+    .string "But after there 50th season,\n"
+    .string "they moved to those damn\p"
+    .string "big shot cities.\n"
+    .string "But I've heard rumors that for\p"
+    .string "season 73, they're going back to\n"
+    .string "basics, hopefully that means\p"
+    .string "Clromer May is homophobic again!$"
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
     .string "This POKéMON GYM is always closed.\p"
@@ -12,17 +17,17 @@ ViridianCity_Text_ViridiansGymLeaderReturned::
     .string "VIRIDIAN GYM's LEADER returned!$"
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
-    .string "You want to know about the two\n"
-    .string "kinds of caterpillar POKéMON?$"
+    .string "I very much dislike Caterpie.\n"
+    .string "Do you HATE Caterpie?$"
 
 ViridianCity_Text_OhOkayThen::
-    .string "Oh, okay then!$"
+    .string "Ew, BEGONE FROM ME!$"
 
 ViridianCity_Text_ExplainCaterpieWeedle::
-    .string "CATERPIE has no poison,\n"
-    .string "but WEEDLE does.\p"
-    .string "Watch that your POKéMON aren't\n"
-    .string "stabbed by WEEDLE's POISON STING.$"
+    .string "YEEEEAAAAAH!\n"
+    .string "CATERPIE FUCKIN SUCKS!\p"
+    .string "HASTAG WEEDLESWEEP\n"
+    .string "HASTAG WEEDLESWEEP.$"
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet::
     .string "Oh, Grandpa!\n"
@@ -31,10 +36,12 @@ ViridianCity_Text_GrandpaHasntHadCoffeeYet::
     .string "He hasn't had his coffee yet.$"
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
-    .string "I go shopping in PEWTER CITY\n"
-    .string "occasionally.\p"
-    .string "I have to take the winding trail in\n"
-    .string "VIRIDIAN FOREST when I go.$"
+    .string "Sometimes I take my car and\n"
+    .string "drive around town like an asshole.\p"
+    .string "I think I hit like three\n"
+    .string "kids yesterday.\p"
+    .string "TOTALLY WORTH IT THOUGH\n"
+    .string "shit was hilarious!$"
 
 ViridianCity_Text_ThisIsPrivateProperty::
     .string "I absolutely forbid you from\n"
