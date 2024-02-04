@@ -1,7 +1,7 @@
 ViridianCity_Text_CanCarryMonsAnywhere::
     .string "This city once was the home\n"
     .string "of the Simpletons!\p"
-    .string "But after there 50th season,\n"
+    .string "But after they're 50th season,\n"
     .string "they moved to those damn\p"
     .string "big shot cities.\n"
     .string "But I've heard rumors that for\p"

@@ -31,27 +31,24 @@ LowTierGodGym_Text_NoPay::
 @ buffer that it's put into, and it stomps all over the gBattleTextBuffs after, as well as the otherwise
 @ unused array after that, sFlickerArray. Perhaps that's the reason why said array exists.
 LowTierGodGym_Text_LTGDefeat::
-    .string "I took you for granted, and so\n"
-    .string "I lost.\p"
-    .string "As proof of your victory, I confer\n"
-    .string "on you this…the official POKéMON\l"
-    .string "LEAGUE BOULDERBADGE.\p"
-    .string "{FONT_NORMAL}{PLAYER} received the BOULDERBADGE\n"
+    .string "GOD DAMMIT!\n"
+    .string "I lost....\p"
+    .string "You totally cheated right there.\n"
+    .string "But since I legally have to,\l"
+    .string "here is the HADOUKENBADGE.\p"
+    .string "{FONT_NORMAL}{PLAYER} received the HADOUKENBADGE\n"
     .string "from BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
-    .string "{FONT_MALE}Just having the BOULDERBADGE makes\n"
-    .string "your POKéMON more powerful.\p"
-    .string "It also enables the use of the\n"
-    .string "move FLASH outside of battle.\p"
-    .string "Of course, a POKéMON must know the\n"
-    .string "move FLASH to use it.$"
+    .string "{FONT_MALE}NOW LEAVE BEFORE I KICK\n"
+    .string "YOUR ASS PHYISCALLY!\p"
+    .string "You can use flash now.$"
 
 LowTierGodGym_Text_TakeThisWithYou::
     .string "Wait!\n"
-    .string "Take this with you.$"
+    .string "Take this.$"
 
 LowTierGodGym_Text_ReceivedTM39FromBrock::
     .string "{PLAYER} received TM39\n"
-    .string "from BROCK.$"
+    .string "from LowTierGod.$"
 
 LowTierGodGym_Text_ExplainTM39::
     .string "A TM, Technical Machine, contains a\n"

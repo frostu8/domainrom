@@ -77,3 +77,7 @@ Route4_Text_PeopleLikeAndRespectBrock::
     .string "People like and respect him.\p"
     .string "I want to become a GYM LEADER\n"
     .string "like him.$"
+
+Route4_EventScript_LTGNope::
+    .string "I should challenge\n"
+    .string "the leader first!$"
