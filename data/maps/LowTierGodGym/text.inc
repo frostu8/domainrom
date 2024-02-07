@@ -39,8 +39,7 @@ LowTierGodGym_Text_LTGDefeat::
     .string "{FONT_NORMAL}{PLAYER} received the HADOUKENBADGE\n"
     .string "from BROCK!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
     .string "{FONT_MALE}NOW LEAVE BEFORE I KICK\n"
-    .string "YOUR ASS PHYISCALLY!\p"
-    .string "You can use flash now.$"
+    .string "YOUR ASS PHYISCALLY!$"
 
 LowTierGodGym_Text_TakeThisWithYou::
     .string "Wait!\n"
@@ -64,13 +63,10 @@ LowTierGodGym_Text_ExplainTM39::
     .string "lowers its SPEED.$"
 
 LowTierGodGym_Text_BrockPostBattle::
-    .string "There are all kinds of TRAINERS in\n"
-    .string "this huge world of ours.\p"
-    .string "You appear to be very gifted as a\n"
-    .string "POKéMON TRAINER.\p"
-    .string "So let me make a suggestion.\p"
-    .string "Go to the GYM in CERULEAN and test\n"
-    .string "your abilities.$"
+    .string "I told you to FUCK OFF!\n"
+    .string "DAMN, GOTTA KEEP SLURPING\p"
+    .string "THE MOTHERFUCKING SYRUP!\n"
+    .string "LEAVE MY GYM NOW!$"
 
 LowTierGodGym_Text_DontHaveRoomForThis::
     .string "You don't have room for this.$"

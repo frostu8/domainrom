@@ -173,17 +173,17 @@
   "warp_events": [
     {
       "x": 29,
-      "y": 62,
+      "y": 94,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE2_VIRIDIAN_FOREST_SOUTH_ENTRANCE",
-      "dest_warp_id": "3"
+      "dest_map": "MAP_ROUTE7",
+      "dest_warp_id": "1"
     },
     {
       "x": 28,
-      "y": 62,
+      "y": 94,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE2_VIRIDIAN_FOREST_SOUTH_ENTRANCE",
-      "dest_warp_id": "3"
+      "dest_map": "MAP_ROUTE7",
+      "dest_warp_id": "0"
     },
     {
       "x": 26,
@@ -201,10 +201,10 @@
     },
     {
       "x": 30,
-      "y": 62,
+      "y": 94,
       "elevation": 3,
-      "dest_map": "MAP_ROUTE2_VIRIDIAN_FOREST_SOUTH_ENTRANCE",
-      "dest_warp_id": "3"
+      "dest_map": "MAP_ROUTE7",
+      "dest_warp_id": "1"
     },
     {
       "x": 25,
