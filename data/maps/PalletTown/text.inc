@@ -40,8 +40,7 @@ PalletTown_Text_RivalsHouse::
     .string "{RIVAL}'s house$"
 
 PalletTown_Text_TownSign::
-    .string "R.I.P Mom\n"
-    .string "Shades of your journey await!$"
+    .string "R.I.P Mom$"
 
 PalletTown_Text_OakLetMeSeePokedex::
     .string "UOUEIGHT: Ah, {PLAYER}!\n"

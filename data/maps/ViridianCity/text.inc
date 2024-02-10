@@ -10,11 +10,20 @@ ViridianCity_Text_CanCarryMonsAnywhere::
     .string "Clromer May is homophobic again!$"
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
-    .string "This POKéMON GYM is always closed.\p"
-    .string "I wonder who the LEADER is?$"
+    .string "Hello there younging!\n"
+    .string "I'm just tending the garden\p"
+    .string "of this school!\p"
+    .string ".........\n"
+    .string ".........\p"
+    .string "I remember the days when we used\n"
+    .string "to have a gym here...\p"
+    .string "We were able to get more\n"
+    .string "tourists that way.\p"
+    .string "The economy has been screwey since.$"
 
 ViridianCity_Text_ViridiansGymLeaderReturned::
-    .string "VIRIDIAN GYM's LEADER returned!$"
+    .string "News has our old gym leader\n"
+    .string "is visiting the old place!$"
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
     .string "I very much dislike Caterpie.\n"

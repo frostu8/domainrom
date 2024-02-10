@@ -1,6 +1,6 @@
 ViridianCity_School_Text_TryingToMemorizeNotes::
-    .string "Whew! I'm trying to memorize all my\n"
-    .string "notes.$"
+    .string "I have a test today.\n"
+    .string "I'm actually freaking cooked!$"
 
 ViridianCity_School_Text_ReadBlackboardCarefully::
     .string "Okay!\p"
@@ -10,40 +10,39 @@ ViridianCity_School_Text_ReadBlackboardCarefully::
 ViridianCity_School_Text_NotebookFirstPage::
     .string "Let's check out the notebook.\p"
     .string "First page…\p"
-    .string "POKé BALLS are used to catch\n"
-    .string "POKéMON.\p"
-    .string "Up to six POKéMON can be carried\n"
-    .string "in your party.\p"
-    .string "People who raise and battle\n"
-    .string "with POKéMON are called TRAINERS.$"
+    .string "Red balls cap Potemon\n"
+    .string "cannot leave after caught.\p"
+    .string "person can only hold 6 pokeballs.\n"
+    .string "cant capt other trainer pokemon.\p"
+    .string "got a potemon, you are trainer\n"
+    .string "treat you er pokemon wiht respect.$"
 
 ViridianCity_School_Text_NotebookSecondPage::
     .string "Second page…\p"
-    .string "A healthy POKéMON may be hard to\n"
-    .string "catch, so weaken it first.\p"
-    .string "Poison, burn, or cause another\n"
-    .string "status problem to weaken it.$"
+    .string "healthy pokemon cant catch\n"
+    .string "very hard, beat it up first!\p"
+    .string "give it pokeaids or other diseases.\n"
+    .string "sleep is best for catching.$"
 
 ViridianCity_School_Text_NotebookThirdPage::
     .string "Third page…\p"
-    .string "POKéMON TRAINERS seek others to\n"
-    .string "engage in POKéMON battles.\p"
-    .string "To TRAINERS, the taste of victory\n"
-    .string "is sweet, indeed.\p"
-    .string "Battles are constantly waged at\n"
-    .string "POKéMON GYMS everywhere.$"
+    .string "trainers want to battle other\n"
+    .string "trainers to show dominance or smth.\p"
+    .string "winning feels good!\n"
+    .string "visit gyms to get badges\p"
+    .string "badges are good :D$"
 
 ViridianCity_School_Text_NotebookFourthPage::
-    .string "Fourth page…\p"
-    .string "The ultimate goal for all POKéMON\n"
-    .string "TRAINERS is simple.\p"
-    .string "It is to defeat the top eight\n"
-    .string "POKéMON GYM LEADERS.\p"
-    .string "Do so to earn the right to face…\p"
-    .string "The ELITE FOUR of the POKéMON\n"
-    .string "LEAGUE!$"
+    .string "get 8 badges for league\p"
+    .string "beat up elite four and then\n"
+    .string "kick the champs ass!\p"
+    .string "............\n"
+    .string "............\p"
+    .string "The rest of the notes are just\n"
+    .string "drawings and scribbles.$"
 
 ViridianCity_School_Text_TurnThePage::
+    .string "These notes are a mess!\n"
     .string "Turn the page?$"
 
 ViridianCity_School_Text_HeyDontLookAtMyNotes::

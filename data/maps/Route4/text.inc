@@ -81,3 +81,4 @@ Route4_Text_PeopleLikeAndRespectBrock::
 Route4_EventScript_LTGNope::
     .string "I should challenge\n"
     .string "the leader first!$"
+

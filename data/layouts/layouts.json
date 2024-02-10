@@ -725,7 +725,7 @@
       "id": "LAYOUT_PALLET_TOWN",
       "name": "PalletTown_Layout",
       "width": 36,
-      "height": 20,
+      "height": 21,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
