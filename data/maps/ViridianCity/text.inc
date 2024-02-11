@@ -9,6 +9,20 @@ ViridianCity_Text_CanCarryMonsAnywhere::
     .string "basics, hopefully that means\p"
     .string "Clromer May is homophobic again!$"
 
+ViridianCity_Text_StupidTree::
+    .string "Who is the asshole that put a\n"
+    .string "tree infront of my freakin house!$"
+
+ViridianCity_Text_GrandmaReal::
+    .string "I never allow my little man to\n"
+    .string "have an iPad when he's with me!\p"
+    .string "I cant let him grow up to be\n"
+    .string "terminally online, as the kids say!$"
+
+ViridianCity_Text_HyperKid::
+    .string "I'm so excited to watch my favorite\n"
+    .string "streamer Key Senile!$"
+
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
     .string "Hello there younging!\n"
     .string "I'm just tending the garden\p"
@@ -39,10 +53,10 @@ ViridianCity_Text_ExplainCaterpieWeedle::
     .string "HASTAG WEEDLESWEEP.$"
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet::
-    .string "Oh, Grandpa!\n"
-    .string "Don't be so mean!\p"
-    .string "I'm so sorry.\n"
-    .string "He hasn't had his coffee yet.$"
+    .string "I don't get all the complaining!\n"
+    .string "This city is pretty good,\p"
+    .string "all things considered!\n"
+    .string "People just like to complain.$"
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
     .string "Sometimes I take my car and\n"
@@ -53,9 +67,7 @@ ViridianCity_Text_GoShoppingInPewterOccasionally::
     .string "shit was hilarious!$"
 
 ViridianCity_Text_ThisIsPrivateProperty::
-    .string "I absolutely forbid you from\n"
-    .string "going through here!\p"
-    .string "This is private property!$"
+    .string "I SLIPPED MY DISK!$"
 
 ViridianCity_Text_ShowYouHowToCatchMons::
     .string "Well, now, I've had my coffee, and\n"

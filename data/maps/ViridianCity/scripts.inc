@@ -185,6 +185,24 @@ ViridianCity_EventScript_WomanRoadBlocked::
 	release
 	end
 
+ViridianCity_EventScript_GRANDMA::
+	msgbox ViridianCity_Text_GrandmaReal
+	release
+	end
+
+ViridianCity_EventScript_StupidKid::
+	msgbox ViridianCity_Text_HyperKid
+	release
+	end
+
+ViridianCity_EventScript_TreeHouse::
+	msgbox ViridianCity_Text_StupidTree
+	closemessage
+	applymovement LOCALID_FAT_MAN, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
 ViridianCity_EventScript_DreamEaterTutor::
 	goto EventScript_DreamEaterTutor
 	end

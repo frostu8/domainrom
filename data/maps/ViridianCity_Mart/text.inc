@@ -1,6 +1,6 @@
 ViridianCity_Mart_Text_YouCameFromPallet::
     .string "Hey!\n"
-    .string "You came from PALLET TOWN?$"
+    .string "You came from Purgatory?$"
 
 ViridianCity_Mart_Text_TakeThisToProfOak::
     .string "You know PROF. OAK, right?\p"
@@ -8,7 +8,7 @@ ViridianCity_Mart_Text_TakeThisToProfOak::
     .string "Can I get you to take it to him?$"
 
 ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
-    .string "{PLAYER} received the UOUEIGHT BOX\n"
+    .string "{PLAYER} received UOUEIGHT'S BOX\n"
     .string "from the POKéMON MART clerk.$"
 
 ViridianCity_Mart_Text_SayHiToOakForMe::
