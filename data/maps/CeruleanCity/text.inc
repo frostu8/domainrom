@@ -1,19 +1,28 @@
 CeruleanCity_Text_RivalIntro::
-    .string "{RIVAL}: Yo! {PLAYER}!\p"
-    .string "You're still struggling along back\n"
-    .string "here?\p"
-    .string "I'm doing great! I caught a bunch\n"
-    .string "of strong and smart POKéMON!\p"
-    .string "Here, let me see what you caught,\n"
-    .string "{PLAYER}!$"
+    .string "{RIVAL}: {PLAYER}?\p"
+    .string "I was just at Jelq Jungle!\p"
+    .string "That place stinks, theres a freakin'\n"
+    .string "wall in the middle of the damn thing!\p"
+    .string "Anywho, my quest for finding my\n"
+    .string "sweetheart is going swimingly!\p"
+    .string "I even got some kickass Pokémon\n"
+    .string "wanna see {PLAYER}!$"
 
 CeruleanCity_Text_RivalDefeat::
     .string "Hey!\n"
-    .string "Take it easy!\l"
-    .string "You won already!$"
+    .string "This is why you're the\l"
+    .string "whore of the land!$"
 
 CeruleanCity_Text_RivalPostBattle::
-    .string "{RIVAL}: Hey, guess what?\p"
+    .string "{RIVAL}: I cant believe it.\p"
+    .string "I need to get better at this\n"
+    .string "Pock E Mom thing.\p"
+    .string "One day I'll be stronger than\n"
+    .string "you, you'll be done for!\p"
+    .string "I'll be the epic Sans!
+    .string "And you'll be the\n"
+    .string "lame ass Papyrus!$"
+
     .string "I went to BILL's and got him to\n"
     .string "show me his rare POKéMON.\p"
     .string "That added a lot of pages to my\n"

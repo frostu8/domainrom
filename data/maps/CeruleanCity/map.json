@@ -59,8 +59,8 @@
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
-      "x": 16,
-      "y": 21,
+      "x": 13,
+      "y": 29,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 1,
@@ -74,8 +74,8 @@
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BALDING_MAN",
-      "x": 2,
-      "y": 25,
+      "x": 7,
+      "y": 29,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 1,
@@ -134,8 +134,8 @@
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BLUE",
-      "x": 22,
-      "y": 0,
+      "x": 19,
+      "y": 5,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -181,8 +181,8 @@
     {
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
-      "x": 7,
-      "y": 34,
+      "x": 16,
+      "y": 37,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 1,
@@ -232,7 +232,7 @@
       "dest_warp_id": "1"
     },
     {
-      "x": 10,
+      "x": 3,
       "y": 26,
       "elevation": 0,
       "dest_map": "MAP_CERULEAN_CITY_POKEMON_CENTER_1F",
@@ -274,14 +274,14 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 14,
+      "x": 7,
       "y": 23,
       "elevation": 3,
       "dest_map": "MAP_CERULEAN_CITY_HOUSE2",
       "dest_warp_id": "0"
     },
     {
-      "x": 14,
+      "x": 7,
       "y": 26,
       "elevation": 3,
       "dest_map": "MAP_CERULEAN_CITY_HOUSE2",
@@ -312,8 +312,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 22,
-      "y": 6,
+      "x": 19,
+      "y": 11,
       "elevation": 3,
       "var": "VAR_MAP_SCENE_CERULEAN_CITY_RIVAL",
       "var_value": "0",
@@ -321,8 +321,8 @@
     },
     {
       "type": "trigger",
-      "x": 23,
-      "y": 6,
+      "x": 20,
+      "y": 11,
       "elevation": 3,
       "var": "VAR_MAP_SCENE_CERULEAN_CITY_RIVAL",
       "var_value": "0",
@@ -330,8 +330,8 @@
     },
     {
       "type": "trigger",
-      "x": 24,
-      "y": 6,
+      "x": 21,
+      "y": 11,
       "elevation": 3,
       "var": "VAR_MAP_SCENE_CERULEAN_CITY_RIVAL",
       "var_value": "0",

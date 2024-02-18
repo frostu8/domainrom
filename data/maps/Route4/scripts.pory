@@ -20,6 +20,7 @@ Route4_EventScript_LTGYes::
 
 Route4_EventScript_LTGNO::
 	msgbox Route4_EventScript_LTGNope, MSGBOX_DEFAULT
+	closemessage
 	waitmessage
 	applymovement OBJ_EVENT_ID_PLAYER, Route4_Movement_BackOff
 	waitmovement OBJ_EVENT_ID_PLAYER
