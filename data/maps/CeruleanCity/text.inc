@@ -19,7 +19,7 @@ CeruleanCity_Text_RivalPostBattle::
     .string "Pock E Mom thing.\p"
     .string "One day I'll be stronger than\n"
     .string "you, you'll be done for!\p"
-    .string "I'll be the epic Sans!
+    .string "I'll be the epic Sans!\p"
     .string "And you'll be the\n"
     .string "lame ass Papyrus!$"
 

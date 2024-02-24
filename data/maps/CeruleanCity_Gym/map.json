@@ -74,7 +74,7 @@
   ],
   "warp_events": [
     {
-      "x": 7,
+      "x": 8,
       "y": 18,
       "elevation": 3,
       "dest_map": "MAP_CERULEAN_CITY",
@@ -88,7 +88,7 @@
       "dest_warp_id": "4"
     },
     {
-      "x": 9,
+      "x": 8,
       "y": 18,
       "elevation": 3,
       "dest_map": "MAP_CERULEAN_CITY",
