@@ -43,29 +43,29 @@ Route4_EventScript_LTGNO::
 # 22 "data/maps/Route4/scripts.pory"
 	msgbox Route4_EventScript_LTGNope, MSGBOX_DEFAULT
 # 23 "data/maps/Route4/scripts.pory"
-	waitmessage
+	closemessage
 # 24 "data/maps/Route4/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, Route4_Movement_BackOff
+	waitmessage
 # 25 "data/maps/Route4/scripts.pory"
-	waitmovement OBJ_EVENT_ID_PLAYER
+	applymovement OBJ_EVENT_ID_PLAYER, Route4_Movement_BackOff
 # 26 "data/maps/Route4/scripts.pory"
-	releaseall
+	waitmovement OBJ_EVENT_ID_PLAYER
 # 27 "data/maps/Route4/scripts.pory"
-	end
+	releaseall
 # 28 "data/maps/Route4/scripts.pory"
-
+	end
 # 29 "data/maps/Route4/scripts.pory"
-Route4_Movement_BackOff::
-# 30 "data/maps/Route4/scripts.pory"
-	walk_left
-# 31 "data/maps/Route4/scripts.pory"
-	step_end
-# 32 "data/maps/Route4/scripts.pory"
 
+# 30 "data/maps/Route4/scripts.pory"
+Route4_Movement_BackOff::
+# 31 "data/maps/Route4/scripts.pory"
+	walk_left
+# 32 "data/maps/Route4/scripts.pory"
+	step_end
 # 33 "data/maps/Route4/scripts.pory"
-Route4_Movement_LTGThrowOff::
+
 # 34 "data/maps/Route4/scripts.pory"
-	walk_right
+Route4_Movement_LTGThrowOff::
 # 35 "data/maps/Route4/scripts.pory"
 	walk_right
 # 36 "data/maps/Route4/scripts.pory"
@@ -95,17 +95,17 @@ Route4_Movement_LTGThrowOff::
 # 48 "data/maps/Route4/scripts.pory"
 	walk_right
 # 49 "data/maps/Route4/scripts.pory"
-	walk_up
-# 50 "data/maps/Route4/scripts.pory"
-	jump_up
-# 51 "data/maps/Route4/scripts.pory"
-	step_end
-# 52 "data/maps/Route4/scripts.pory"
-
-# 53 "data/maps/Route4/scripts.pory"
-Route4_Movement_PlayerFall::
-# 54 "data/maps/Route4/scripts.pory"
 	walk_right
+# 50 "data/maps/Route4/scripts.pory"
+	walk_up
+# 51 "data/maps/Route4/scripts.pory"
+	jump_up
+# 52 "data/maps/Route4/scripts.pory"
+	step_end
+# 53 "data/maps/Route4/scripts.pory"
+
+# 54 "data/maps/Route4/scripts.pory"
+Route4_Movement_PlayerFall::
 # 55 "data/maps/Route4/scripts.pory"
 	walk_right
 # 56 "data/maps/Route4/scripts.pory"
@@ -135,38 +135,40 @@ Route4_Movement_PlayerFall::
 # 68 "data/maps/Route4/scripts.pory"
 	walk_right
 # 69 "data/maps/Route4/scripts.pory"
-	walk_up
+	walk_right
 # 70 "data/maps/Route4/scripts.pory"
-	jump_2_right
+	walk_up
 # 71 "data/maps/Route4/scripts.pory"
-	step_end
+	jump_2_right
 # 72 "data/maps/Route4/scripts.pory"
-
+	step_end
 # 73 "data/maps/Route4/scripts.pory"
-Route4_EventScript_Unused::
+
 # 74 "data/maps/Route4/scripts.pory"
-	end
+Route4_EventScript_Unused::
 # 75 "data/maps/Route4/scripts.pory"
-
+	end
 # 76 "data/maps/Route4/scripts.pory"
-Route4_EventScript_Woman::
+
 # 77 "data/maps/Route4/scripts.pory"
-	msgbox Route4_Text_TrippedOverGeodude, MSGBOX_NPC
+Route4_EventScript_Woman::
 # 78 "data/maps/Route4/scripts.pory"
-	end
+	msgbox Route4_Text_TrippedOverGeodude, MSGBOX_NPC
 # 79 "data/maps/Route4/scripts.pory"
-
-# 80 "data/maps/Route4/scripts.pory"
-Route4_EventScript_MtMoonSign::
-# 81 "data/maps/Route4/scripts.pory"
-	msgbox Route4_Text_MtMoonEntrance, MSGBOX_SIGN
-# 82 "data/maps/Route4/scripts.pory"
 	end
-# 83 "data/maps/Route4/scripts.pory"
+# 80 "data/maps/Route4/scripts.pory"
 
+# 81 "data/maps/Route4/scripts.pory"
+Route4_EventScript_MtMoonSign::
+# 82 "data/maps/Route4/scripts.pory"
+	msgbox Route4_Text_MtMoonEntrance, MSGBOX_SIGN
+# 83 "data/maps/Route4/scripts.pory"
+	end
 # 84 "data/maps/Route4/scripts.pory"
-Route4_EventScript_RouteSign::
+
 # 85 "data/maps/Route4/scripts.pory"
-	msgbox Route4_Text_RouteSign, MSGBOX_SIGN
+Route4_EventScript_RouteSign::
 # 86 "data/maps/Route4/scripts.pory"
+	msgbox Route4_Text_RouteSign, MSGBOX_SIGN
+# 87 "data/maps/Route4/scripts.pory"
 	end
