@@ -1,3 +1,4 @@
+
 .set LOCALID_POLICEMAN, 1
 .set LOCALID_GRUNT,     2
 .set LOCALID_SLOWBRO,   5

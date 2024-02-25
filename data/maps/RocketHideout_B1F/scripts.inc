@@ -1,3 +1,4 @@
+
 RocketHideout_B1F_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, RocketHideout_B1F_OnLoad
 	map_script MAP_SCRIPT_ON_TRANSITION, RocketHideout_B1F_OnTransition

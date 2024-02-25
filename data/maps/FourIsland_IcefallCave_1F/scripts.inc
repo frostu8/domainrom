@@ -1,3 +1,4 @@
+
 FourIsland_IcefallCave_1F_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, FourIsland_IcefallCave_1F_OnResume
 	map_script MAP_SCRIPT_ON_LOAD, FourIsland_IcefallCave_1F_OnLoad

@@ -1,3 +1,4 @@
+
 .set LOCALID_LANCE, 1
 
 PokemonLeague_LancesRoom_MapScripts::

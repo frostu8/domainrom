@@ -1,3 +1,4 @@
+
 .set LOCALID_DOOR_GUARD, 4
 
 IndigoPlateau_PokemonCenter_1F_MapScripts::

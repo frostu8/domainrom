@@ -1,3 +1,4 @@
+
 .set LOCALID_PROF_OAK, 1
 
 PokemonLeague_HallOfFame_MapScripts::

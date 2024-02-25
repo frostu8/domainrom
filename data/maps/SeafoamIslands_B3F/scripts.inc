@@ -1,3 +1,4 @@
+
 .equ NUM_BOULDERS_PRESENT, VAR_TEMP_2
 
 SeafoamIslands_B3F_MapScripts::

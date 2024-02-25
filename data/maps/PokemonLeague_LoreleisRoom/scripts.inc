@@ -1,3 +1,4 @@
+
 PokemonLeague_LoreleisRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, PokemonLeague_LoreleisRoom_OnResume
 	map_script MAP_SCRIPT_ON_LOAD, PokemonLeague_LoreleisRoom_OnLoad

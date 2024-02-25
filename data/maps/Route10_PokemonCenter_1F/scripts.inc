@@ -1,3 +1,4 @@
+
 .equ REQUIRED_OWNED_MONS, 20
 
 Route10_PokemonCenter_1F_MapScripts::
