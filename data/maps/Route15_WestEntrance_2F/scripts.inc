@@ -1,4 +1,3 @@
-
 .equ REQUIRED_CAUGHT_MONS, 50
 
 Route15_WestEntrance_2F_MapScripts::

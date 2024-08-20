@@ -1,4 +1,3 @@
-
 .set LOCALID_CAPTAIN, 1
 
 SSAnne_CaptainsOffice_MapScripts::

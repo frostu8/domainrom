@@ -1,4 +1,3 @@
-
 .set LOCALID_SCIENTIST, 1
 
 SixIsland_RuinValley_MapScripts::

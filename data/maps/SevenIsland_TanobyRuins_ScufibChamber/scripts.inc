@@ -1,4 +1,3 @@
-
 SevenIsland_TanobyRuins_ScufibChamber_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, SevenIsland_TanobyRuins_ScufibChamber_OnTransition
 	.byte 0

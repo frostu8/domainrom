@@ -1,4 +1,3 @@
-
 .set LOCALID_OLD_MAN,      3
 .set LOCALID_TUTORIAL_MAN, 4
 .set LOCALID_WOMAN,        5

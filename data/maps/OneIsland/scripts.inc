@@ -1,4 +1,3 @@
-
 .equ LOCALID_BILL, 1
 
 OneIsland_MapScripts::

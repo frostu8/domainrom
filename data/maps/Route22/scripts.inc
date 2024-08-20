@@ -1,4 +1,3 @@
-
 .set LOCALID_RIVAL, 1
 
 Route22_MapScripts::

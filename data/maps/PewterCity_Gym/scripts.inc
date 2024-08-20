@@ -1,4 +1,3 @@
-
 PewterCity_Gym_MapScripts::
 	.byte 0
 
@@ -15,6 +14,7 @@ PewterCity_Gym_EventScript_DefeatedBrock::
 	setflag FLAG_DEFEATED_BROCK
 	setflag FLAG_BADGE01_GET
 	setvar VAR_MAP_SCENE_PEWTER_CITY, 1
+	setvar VAR_0x808C, 1
 	setflag FLAG_HIDE_PEWTER_CITY_GYM_GUIDE
 	clearflag FLAG_HIDE_PEWTER_CITY_RUNNING_SHOES_GUY
 	set_gym_trainers 1

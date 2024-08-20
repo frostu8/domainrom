@@ -1,4 +1,3 @@
-
 .set LOCALID_SS_ANNE, 1
 
 SSAnne_Exterior_MapScripts::

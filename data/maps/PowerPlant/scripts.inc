@@ -1,4 +1,3 @@
-
 PowerPlant_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, PowerPlant_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, PowerPlant_OnTransition

@@ -1,4 +1,3 @@
-
 .set LOCALID_BOULDER, 5
 
 VictoryRoad_1F_MapScripts::

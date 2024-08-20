@@ -1,4 +1,3 @@
-
 .equ REQUIRED_SEEN_MONS, 10
 
 Route2_EastBuilding_MapScripts::

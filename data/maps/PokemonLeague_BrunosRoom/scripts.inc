@@ -1,4 +1,3 @@
-
 .set LOCALID_BRUNO, 1
 
 PokemonLeague_BrunosRoom_MapScripts::
